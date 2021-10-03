@@ -13,13 +13,12 @@ class Renderer:
         self._terminal.clear_screen()
 
     def show_text(self, text: str) -> None:
-        print(text)
+        print(text, end="")
 
     def show_text_animated(self, text: str, chars_per_second: Optional[float] = 10) -> None:
         for character in text:
             print(character, end="")
             time.sleep(1 / chars_per_second)
-        print()
 
     def change_terminal_color(self, text_color: str) -> None:
         print(color_control_sequence(text_color), end="")

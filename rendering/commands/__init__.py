@@ -5,3 +5,5 @@ from .show_text_command import ShowTextCommand
 from .stop_command import StopCommand
 from .wait_command import WaitCommand
 from .command_queue import CommandQueue
+from .change_color_command import ChangeColorCommand
+from .reset_color_command import ResetColorCommand

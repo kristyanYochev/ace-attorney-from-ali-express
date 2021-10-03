@@ -1,9 +1,8 @@
 import time
 from typing import Optional
 
-from rendering import RenderWorker
-from rendering.commands import CommandQueue
 from terminal import Terminal
+from .colors import color_control_sequence, RESET_COLOR_CONTROL_SEQUENCE
 
 
 class Renderer:
@@ -20,11 +19,10 @@ class Renderer:
         for character in text:
             print(character, end="")
             time.sleep(1 / chars_per_second)
+        print()
 
+    def change_terminal_color(self, text_color: str) -> None:
+        print(color_control_sequence(text_color), end="")
 
-def create_render_worker(terminal: Terminal) -> (CommandQueue, RenderWorker):
-    renderer = Renderer(terminal)
-    command_queue = CommandQueue()
-    worker = RenderWorker(renderer, command_queue)
-
-    return command_queue, worker
+    def reset_terminal_color(self) -> None:
+        print(RESET_COLOR_CONTROL_SEQUENCE, end="")

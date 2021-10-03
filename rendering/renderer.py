@@ -15,7 +15,7 @@ class Renderer:
     def show_text(self, text: str) -> None:
         print(text, end="")
 
-    def show_text_animated(self, text: str, chars_per_second: Optional[float] = 100) -> None:
+    def show_text_animated(self, text: str, chars_per_second: Optional[float] = 100000000) -> None:
         for character in text:
             print(character, end="")
             time.sleep(1 / chars_per_second)

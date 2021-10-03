@@ -56,12 +56,23 @@ class Game:
                 self.statements.select_currently_highlighted()
             if pressed_key == 'c':
                 self.statements.clear_selection()
+            if pressed_key == 'x' and speech_index == stage.speeches.__len__():
+                if set(self.statements.selected_items) == stage.correct:
+                    self.WriteBlocks(stage.win_speech, characters)
+                else:
+                    self.WriteBlocks(stage.loss_speech, characters)
 
             self.commands_queue.clear_screen()
             for i, statement in enumerate(self.statements):
                 statement.show(self.commands_queue,
                                statement is self.statements.highlighted_statement,
                                i in self.statements.selected_items)
+
+
+    def WriteBlocks(self, blocks: list[SpeechBlock], chars: list[dict]):
+        for block in blocks:
+            self.write_speech(block, chars)
+
 
     def write_speech(self, block: SpeechBlock, chars: list[dict]):
         new_statements = StatementList([])

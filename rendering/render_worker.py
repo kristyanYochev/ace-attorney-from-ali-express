@@ -1,13 +1,12 @@
-from queue import Queue
 from threading import Thread
 
+from .commands import CommandQueue
 from .renderer import Renderer
-from .commands import RenderCommand
 from .stop_thread import StopThread
 
 
 class RenderWorker(Thread):
-    def __init__(self, renderer: Renderer, commands: Queue[RenderCommand]):
+    def __init__(self, renderer: Renderer, commands: CommandQueue):
         super(RenderWorker, self).__init__()
         self._commands = commands
         self._renderer = renderer

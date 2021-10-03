@@ -1,6 +1,8 @@
 import time
 from typing import Optional
 
+from rendering import RenderWorker
+from rendering.commands import CommandQueue
 from terminal import Terminal
 
 
@@ -18,3 +20,11 @@ class Renderer:
         for character in text:
             print(character, end="")
             time.sleep(1 / chars_per_second)
+
+
+def create_render_worker(terminal: Terminal) -> (CommandQueue, RenderWorker):
+    renderer = Renderer(terminal)
+    command_queue = CommandQueue()
+    worker = RenderWorker(renderer, command_queue)
+
+    return command_queue, worker

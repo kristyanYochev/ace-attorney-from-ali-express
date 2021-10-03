@@ -10,8 +10,7 @@ class Stage:
         self.speeches = []
         speech = SpeechBlock()
 
-        i = 0
-        for i in range(len(file)):
+        for i in range(1, len(file)):
             if file[i][:1] == "<":
                 speech = SpeechBlock()
                 self.speeches.append(speech)

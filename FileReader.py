@@ -2,7 +2,6 @@ import json
 import os
 from Stage import Stage
 
-
 def read_characters(case_id: int) -> list[dict]:
     return json.load(open(str(case_id) + "/Characters.json"))["Characters"]
 

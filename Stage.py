@@ -8,6 +8,8 @@ __all__ = [
 class Stage:
     def __init__(self, file: list[str]):
         self.speeches = []
+        self.correct = set(map(lambda n: int(n), file[0].split(", ")))
+
         speech = SpeechBlock()
 
         for i in range(1, len(file)):

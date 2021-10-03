@@ -1,6 +1,7 @@
 import FileReader
 from SpeechBlock import SpeechBlock
 from rendering.commands import CommandQueue
+import re
 
 __all__ = [
     "Game"
@@ -10,6 +11,17 @@ import Stage
 from statement import Statement
 from statement_list import StatementList
 from terminal import Terminal
+
+
+def parse(line: str, characters: list[dict]):
+    res = line
+
+    matches = re.findall(r"\[\d+]", line)
+    character_ids = map(lambda text: int(text[1:-1]), matches)
+    for cid in character_ids:
+        res = res.replace(f"[{cid}]", characters[cid]["CharacterName"])
+
+    return res
 
 
 class Game:
@@ -55,7 +67,7 @@ class Game:
         new_statements = StatementList([])
         new_statements.append(Statement("", chars[block.speaker]['CharacterName']))
         for line in block.statements:
-            new_statements.append(Statement(line, ""))
+            new_statements.append(Statement(parse(line, chars), ""))
 
         for statement in new_statements:
             statement.animate(self.commands_queue)

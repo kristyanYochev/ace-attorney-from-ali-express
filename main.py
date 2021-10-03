@@ -1,4 +1,5 @@
 from terminal import Terminal
+import FileReader
 
 
 def main():

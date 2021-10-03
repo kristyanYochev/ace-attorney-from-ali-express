@@ -1,9 +1,9 @@
-1 4, 4 4
+10, 25
 <0>
 Good morning or evening or afternoon, welcome to AliExpress Ace Attorney.
 I will be training you to do a job that normally takes 8 years in less than a minute.
-Good luck, it's not like innocent people’s lives could be changed today or anything.
-Please read through the details that [2] has provided for you, he’s going easy on you today. 
+Good luck, it's not like innocent people's lives could be changed today or anything.
+Please read through the details that [2] has provided for you, he's going easy on you today. 
 <2>
 Today's your first case, don't be nervous, I've already compiled all the evidence for you.
 The victim for this case is Mr [3]. 
@@ -54,9 +54,9 @@ With the confession the court can be adjourned. That is all.
 <0>
 Day 1 complete, you put the guy behind bars right? Murr Durman, what a name.
 Your job is basically going to be doing that over and over and over again.
-But you get paid for what is essentially playing ‘find the pair’, so it’s not too bad. 
+But you get paid for what is essentially playing ‘find the pair', so it's not too bad. 
 I wonder what the next guy is gonna be called, Des Troy? Kill Erman?
-In any case, I’m sure you will continue improving your reputation in the courtroom.
+In any case, I'm sure you will continue improving your reputation in the courtroom.
 
 {FAIL}
 <5>
@@ -65,5 +65,5 @@ Mr [4] is free to go, that is all for today.
 <0>
 Day 1 complete, well, barely. You let Murr Durman go. Murr Durman. Read that slowly, out loud.
 Maybe you did need more than a minute of training afterall.
-Don’t worry, we won’t kick you out quite yet, Dave over there once let a guy go who still had blood on his shirt. 
+Don't worry, we won't kick you out quite yet, Dave over there once let a guy go who still had blood on his shirt. 
 

@@ -1,4 +1,4 @@
-1 4, 4 4
+10, 25
 <0>
 Good morning or evening or afternoon, welcome to AliExpress Ace Attorney.
 I will be training you to do a job that normally takes 8 years in less than a minute.

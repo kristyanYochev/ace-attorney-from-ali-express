@@ -2,6 +2,7 @@ from rendering import create_render_worker
 from statement import Statement
 from statement_list import StatementList
 from terminal import Terminal
+import FileReader
 
 
 def main():

@@ -1,7 +1,7 @@
 <0>
-A nondescript, unimportant office building has recently been the victim of a hate crime, apparently the arsonist really didn’t appreciate the stunning 60s grey architecture.
+A nondescript, unimportant office building has recently been the victim of a hate crime, apparently the arsonist really didn't appreciate the stunning 60s grey architecture.
 My boss has just sent you the details, same as last time, read the case details carefully and argue with the defendant.
-It’s a bit like what happened last night in the pub except everyone’s wearing suits and Gary isn’t dancing on the table.
+It's a bit like what happened last night in the pub except everyone's wearing suits and Gary isn't dancing on the table.
 Well, looks like your boss needs you, better go see what he wants.
 <2>
 Right, this might be a little trickier than last time.
@@ -45,4 +45,4 @@ Court will reconvene after a short break.
 
 {FAIL}
 Ooooh unlucky, just a quick note, we kind of made your job a tad harder, this time we need to find 3 pieces of evidence.
-I hope you’re ready for this job to throw some curveballs your way.
+I hope you're ready for this job to throw some curveballs your way.

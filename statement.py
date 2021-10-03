@@ -13,10 +13,14 @@ class Statement:
         render_command_queue.animate_text(self.text)
         render_command_queue.show_text("\n")
 
-    def show(self, render_command_queue: rendering.commands.CommandQueue, highlighted: bool = False) -> None:
+    def show(self, render_command_queue: rendering.commands.CommandQueue,
+             highlighted: bool = False,
+             selected: bool = False) -> None:
         self.display_name(render_command_queue)
         if highlighted:
             render_command_queue.show_colored_text(self.text, "red")
+        elif selected:
+            render_command_queue.show_colored_text(self.text, "purple")
         else:
             render_command_queue.show_text(self.text)
         render_command_queue.show_text("\n")
@@ -26,4 +30,3 @@ class Statement:
             render_command_queue.show_text("[")
             render_command_queue.show_colored_text(self.character_name, "cyan")
             render_command_queue.show_text("] ")
-

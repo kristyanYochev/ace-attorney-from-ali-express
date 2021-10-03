@@ -55,7 +55,7 @@ class Terminal:
     def get_character(self) -> str:
         if self.posix:
             return sys.stdin.read(1)
-        return msvcrt.getch()
+        return msvcrt.getch().decode()
 
     def finalize(self) -> None:
         if self.posix:

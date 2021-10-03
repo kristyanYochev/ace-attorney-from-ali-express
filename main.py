@@ -6,21 +6,29 @@ import FileReader
 
 
 def main():
+    chars = FileReader.read_characters(0)
+    stages = FileReader.read_script(0)
+
     with Terminal() as terminal:
         commands_queue, render_worker = create_render_worker(terminal)
 
         render_worker.start()
 
-        statements = StatementList([
-            Statement("He is guilty", "Prosecutor"),
-            Statement("No, he is not", "Defense Attorney"),
-            Statement("But this piece of evidence points to him", "Prosecutor")
-        ])
+        running = True
+        statements = StatementList([])
 
-        for statement in statements:
+        new_statements = StatementList([])
+
+        new_statements.append(Statement("", chars[stages[0].speeches[0].speaker]['CharacterName']))
+        for line in stages[0].speeches[0].statements:
+            new_statements.append(Statement(line, ""))
+
+        for statement in new_statements:
             statement.animate(commands_queue)
 
-        running = True
+        statements.extend(new_statements)
+        speech = 1
+
         while running:
             pressed_key = terminal.get_character()
             if pressed_key == 'w':
@@ -29,6 +37,18 @@ def main():
                 statements.highlight_next()
             if pressed_key == 'q':
                 running = False
+            if pressed_key == 'e':
+
+                new_statements = StatementList([])
+                new_statements.append(Statement("", chars[stages[0].speeches[speech].speaker]['CharacterName']))
+                for statement in stages[0].speeches[speech].statements:
+                    new_statements.append(Statement(statement, ""))
+
+                for statement in new_statements:
+                    statement.animate(commands_queue)
+
+                statements.extend(new_statements)
+                speech += 1
 
             commands_queue.clear_screen()
             for statement in statements:

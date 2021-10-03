@@ -1,0 +1,69 @@
+1 4, 4 4
+<0>
+Good morning or evening or afternoon, welcome to AliExpress Ace Attorney.
+I will be training you to do a job that normally takes 8 years in less than a minute.
+Good luck, it’s not like innocent people’s lives could be changed today or anything. 
+Please read through the details that [2] has provided for you, he’s going easy on you today. 
+<2>
+Today's your first case, don't be nervous, I've already compiled all the evidence for you.
+The victim for this case is Mr [3]. 
+He was stabbed three times with a knife, and subsequently died of blood loss.
+The body was found in the living room, on the floor in front of the television.
+The murder is thought to of occured Wednesday the 23rd of June between 9 and 12 PM.
+The prime suspect is Mr [4] who was seen entering the victims house at 8 PM but it is unknown when he left.
+The murder weapon was found discarded in the kitchen sink.
+That's all we've got unfortunately, hopefully it's enough to get a clean prosecution.
+<0>
+'At court'
+<5>
+The time is [TIME], the court is now in session. Please do not leave the courtroom without having given prior notice.
+We are here to decide the fate of Mr [4], who is the prime suspect of the murder of Mr [3].
+First let's hear Mr [4]'s statement.
+<4>
+I'm telling you I don't know what happened. All I did was visit my good friend and suddenly I'm accused of murder!
+But fine, here's what happened.
+[3] had invited me over to catch up, I arrived at about 8 PM.
+I didn't bring anything with me, definitely not anything dangerous like a knife.
+We had some drinks, had a nice evening, and then I left. That's it. He was perfectly alive at 12:30 when I went home.
+It was just the two of us for the evening, nice and quiet.
+I would have stayed longer but he'd fallen asleep on the sofa watching television so I just let myself out.
+Whoever killed him must have done it after I left. I have nothing to do with this.
+<0>
+The whole job entails listening to the defendants argument and calling them out on discrepancies.
+Use the arrow keys to cycle through the defendant's argument, and press [KEY] to select a statement that you believe contains false information.
+Accuse the defendant wrongly more than 3 times and you put our top quality law firms reputation on the line.
+Therefore you will get no pay, seems fair to me. Remember, we don't really want high level criminals out on the streets.
+
+{WIN}
+<1>
+Hold on Mr [4]. You say you left the house at 12:30, correct?
+<4>
+That is what I said, yes.
+<1>
+The Coroner's report shows the victim was dead by 12 at the latest and 9 at the earliest. By your own testimony you were with the victim for this entire time.
+Meaning you were there when they were killed, since you said no one else was there, you must be the killer!
+<5>
+This is compelling evidence, what do you have to say about this?
+<4>
+I-I-I... 
+...
+...
+I KILLED HIM- OF COURSE I DID! HE DESERVED IT! YOU DON'T UNDERSTAND!
+<5>
+With the confession the court can be adjourned. That is all.
+<0>
+Day 1 complete, you put the guy behind bars right? Murr Durman, what a name.
+Your job is basically going to be doing that over and over and over again.
+But you get paid for what is essentially playing ‘find the pair’, so it’s not too bad. 
+I wonder what the next guy is gonna be called, Des Troy? Kill Erman?
+In any case, I’m sure you will continue improving your reputation in the courtroom.
+
+{FAIL}
+<5>
+Does the prosecution not have a rebuttal? In that case there is insufficient evidence to find Mr [4] guilty beyond a reasonable doubt.
+Mr [4] is free to go, that is all for today.
+<0>
+Day 1 complete, well, barely. You let Murr Durman go. Murr Durman. Read that slowly, out loud.
+Maybe you did need more than a minute of training afterall.
+Don’t worry, we won’t kick you out quite yet, Dave over there once let a guy go who still had blood on his shirt. 
+

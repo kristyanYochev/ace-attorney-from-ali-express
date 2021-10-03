@@ -1,0 +1,30 @@
+ {
+     "Characters":
+     [
+        {
+        "CharacterName":"Narrator",
+        "NameColour":"Green"
+        },
+        {
+        "CharacterName":"[Player]",
+        "NameColour":"White"
+        },
+        {
+        "CharacterName": "Boss",
+        "NameColour": "Blue"
+        },
+        {
+        "CharacterName": "Dan Mead",
+        "NameColour": "Green"
+        },
+        {
+        "CharacterName": "Murr Durman",
+        "NameColour": "Red"
+        },
+        {
+        "CharacterName": "Jerry Manderin",
+        "NameColour": "Yellow"
+        }
+
+     ]
+ }

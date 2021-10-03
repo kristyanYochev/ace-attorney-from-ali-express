@@ -17,5 +17,4 @@ class Stage:
                 self.speeches.append(speech)
                 speech.speaker = int(file[i][1:len(file[i]) - 1])
             else:
-                print(file[i])
                 self.speeches[len(self.speeches) - 1].statements.append(file[i])

@@ -1,0 +1,24 @@
+{
+    "Characters":
+    [
+       {   
+
+       },
+       {
+       "CharacterName":"[Player]",
+       "NameColour":"White"
+       },
+       {
+       "CharacterName": "Boss",
+       "NameColour": "Blue"
+       },
+       {
+        "CharacterName":"Blaze Jones",
+        "NameColour":"Red"
+       },
+       {
+        "CharacterName": "Jerry Manderin",
+        "NameColour": "Yellow"
+        }
+    ]
+} 

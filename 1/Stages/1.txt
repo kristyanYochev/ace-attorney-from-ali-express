@@ -1,0 +1,43 @@
+<2>
+Good job out there. We've had some more information delivered, let me fill you in.
+We have his bank account details showing he bought a considerable amount of petrol on Monday evening.
+Also we can confirm he left the building early on Tuesday, however it's possible he got back in when someone was leaving.
+We also know he was in the kitchen both Monday evening and Tuesday morning from witness recounts.
+Also to refresh you the fire was started at 8 PM.
+And the kitchen is on the 6th floor.
+<4>
+The court is now back in session. [3] Can you explain how your ID was found at the scene of the crime?
+<3>
+Look, maybe they took my ID from me when I was in Tuesday morning, or maybe I just dropped it there.
+Just because it was there doesn't show I was there at 8 PM and it doesn't show I started the fire!
+As I said before I had to leave early to go shopping and charge my car. I wasn't even at the building at 8!
+How can you not see someone is framing me!
+Sure I've been to the kitchen before! Everyone has, that doesn't mean I'm guilty.
+
+
+{WIN}
+<1>
+Just one question [3], do you have an electric car?
+<3>
+Ah yes, I do. I don't see how that's relevant?
+<1>
+If your car is electric, why did you buy so much petrol Monday evening? Was it to perhaps start a fire?
+<3>
+What!? I- Umm- Err- NO! It was just, just, just...
+<4>
+[3] could you please answer the question, for what reason did you buy petrol on Monday evening?
+<3>
+FINE. YOU GOT ME. CAN YOU BLAME ME!? 
+I worked for TEN YEARS I gave them my LIFE and what do they do in return!?
+MINIMUM WAGE and NO BENEFITS! Then they go making people redundant and I just KNOW I was going to be next!
+They DESERVED it!
+<4>
+Alright I think we've heard enough. Court is adjourned.
+<0>
+“We didn’t start the fire”, well, no, but BLAZE did. He turned Doors into Floors.
+What a surprise, it’s almost like the game writer is having too much fun with these names.
+I’m sure the next case will have another humorous name, something related to burglary, Robb Banks would work.
+
+{FAIL}
+Ah so close, yet so far. To do this job you really have to have a burning desire to find the smallest of details.
+Give it a look again, remember, each time you make a mistake you lose some of your pay packet.

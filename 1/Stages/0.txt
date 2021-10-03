@@ -1,0 +1,48 @@
+<0>
+A nondescript, unimportant office building has recently been the victim of a hate crime, apparently the arsonist really didn’t appreciate the stunning 60s grey architecture.
+My boss has just sent you the details, same as last time, read the case details carefully and argue with the defendant.
+It’s a bit like what happened last night in the pub except everyone’s wearing suits and Gary isn’t dancing on the table.
+Well, looks like your boss needs you, better go see what he wants.
+<2>
+Right, this might be a little trickier than last time.
+You know the global computer company Doors? One of their office buildings was set fire too from the inside.
+The fire was started using the gas in the company kitchen as well as additional fuel.
+The suspect, [3]'s, ID card was found in the remains of the kitchen by the stove.
+Every employee has and ID card as they are needed to enter the building.
+The fire started Tuesday evening at 8 PM.
+Recently the company made a lot of employees redundant so there is possibility of a suspect among them.
+The kitchen where the fire started is on the 6th floor.
+<0>
+'At court'
+<4>
+Please be seated, the court is now in session.
+On Tuesday 11th November one of the head Doors offices was set alight.
+We have one of a number of suspects here with us today. Defendant, please state your case.
+<3>
+You're really falling for their tricks? Isn't it obvious I'm being framed!?
+Do you really think I'm stupid enough to leave my ID card where I started a fire???
+Obviously someone took my ID on Monday when I was leaving the building and used to to frame me.
+Once they had my ID it would have been easy to just leave the gas running in the kitchen then- Boom!
+My guess is it's one of those guys who were made redundant- trying to get revenge on the company an' all that.
+Really, it couldn't have been me I left work early on Tuesday, I wasn't anywhere near the building at 8.
+All I did was clock in, do my work, then go home. No fire starting whatsoever.
+Whoever did this though, they must be smart, a real criminal genius.
+I mean, doing this when everyone was just let off AND framing me? Smart.
+
+{WIN}
+<1>
+I got it! You say your ID was taken from you on Monday, yes?
+<3>
+Yep, the arsonist must have got it from me then.
+<1>
+Then how did you get into the building on Tuesday when all employees need a ID card to enter?
+<3>
+Ah umm haha well... I guess I was mistaken.
+In that case I don't know when my ID was taken from me- but it definitely was! Because I don't have it now!
+<4>
+Mr [3] you don't have it now because it was found at the crime scene.
+Court will reconvene after a short break.
+
+{FAIL}
+Ooooh unlucky, just a quick note, we kind of made your job a tad harder, this time we need to find 3 pieces of evidence.
+I hope you’re ready for this job to throw some curveballs your way.

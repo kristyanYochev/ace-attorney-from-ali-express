@@ -40,10 +40,16 @@ class Game:
             if pressed_key == 'e':
                 self.write_speech(stage.speeches[speech_index], characters)
                 speech_index += 1
+            if pressed_key == 'z':
+                self.statements.select_currently_highlighted()
+            if pressed_key == 'c':
+                self.statements.clear_selection()
 
             self.commands_queue.clear_screen()
-            for statement in self.statements:
-                statement.show(self.commands_queue, statement is self.statements.highlighted_statement)
+            for i, statement in enumerate(self.statements):
+                statement.show(self.commands_queue,
+                               statement is self.statements.highlighted_statement,
+                               i in self.statements.selected_items)
 
     def write_speech(self, block: SpeechBlock, chars: list[dict]):
         new_statements = StatementList([])
